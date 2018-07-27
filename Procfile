@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/INSERT_APP_NAME_HERE -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=${DATABASE_URL} -Dplay.http.secret.key='INSERT SECRET HERE'
+web: target/universal/stage/bin/play-java-heroku-ab -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=${DATABASE_URL} -Dplay.http.secret.key='XKCI`Pw/<v@4B4ntj]mxAC8/0`eGzzpjrMH7JIm<I[ZFo>d`?:DlC@zro[uO19Qn'
