@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/coachmonitor -Dplay.http.secret.key='6MH_11Nlv[ul4UCXAVHihqozuENJ56]Ixo]i>a?sw@?_h?Q3:1przBC71VdlS_VA'
+web: target/universal/stage/bin/coachmonitor -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=${DATABASE_URL} -Dplay.http.secret.key='INSERT SECRET HERE'
